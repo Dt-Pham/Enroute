@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C612944925C6176D00604988 /* FlightAware in Resources */ = {isa = PBXBuildFile; fileRef = C612944825C6176D00604988 /* FlightAware */; };
+		C612944E25C617E800604988 /* FilterFlights.swift in Sources */ = {isa = PBXBuildFile; fileRef = C612944B25C617E800604988 /* FilterFlights.swift */; };
+		C612944F25C617E800604988 /* FoundationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C612944C25C617E800604988 /* FoundationExtensions.swift */; };
+		C612945025C617E800604988 /* FlightsEnrouteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C612944D25C617E800604988 /* FlightsEnrouteView.swift */; };
 		C63829F725C5EDA900A05DF3 /* EnrouteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63829F625C5EDA900A05DF3 /* EnrouteApp.swift */; };
-		C63829F925C5EDA900A05DF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63829F825C5EDA900A05DF3 /* ContentView.swift */; };
 		C63829FB25C5EDAA00A05DF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C63829FA25C5EDAA00A05DF3 /* Assets.xcassets */; };
 		C63829FE25C5EDAA00A05DF3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C63829FD25C5EDAA00A05DF3 /* Preview Assets.xcassets */; };
 		C6382A0025C5EDAA00A05DF3 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63829FF25C5EDAA00A05DF3 /* Persistence.swift */; };
@@ -16,9 +19,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C612944825C6176D00604988 /* FlightAware */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FlightAware; sourceTree = "<group>"; };
+		C612944B25C617E800604988 /* FilterFlights.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterFlights.swift; sourceTree = "<group>"; };
+		C612944C25C617E800604988 /* FoundationExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoundationExtensions.swift; sourceTree = "<group>"; };
+		C612944D25C617E800604988 /* FlightsEnrouteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightsEnrouteView.swift; sourceTree = "<group>"; };
 		C63829F325C5EDA900A05DF3 /* Enroute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Enroute.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C63829F625C5EDA900A05DF3 /* EnrouteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnrouteApp.swift; sourceTree = "<group>"; };
-		C63829F825C5EDA900A05DF3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C63829FA25C5EDAA00A05DF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C63829FD25C5EDAA00A05DF3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C63829FF25C5EDAA00A05DF3 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -56,8 +62,11 @@
 		C63829F525C5EDA900A05DF3 /* Enroute */ = {
 			isa = PBXGroup;
 			children = (
+				C612944B25C617E800604988 /* FilterFlights.swift */,
+				C612944D25C617E800604988 /* FlightsEnrouteView.swift */,
+				C612944C25C617E800604988 /* FoundationExtensions.swift */,
+				C612944825C6176D00604988 /* FlightAware */,
 				C63829F625C5EDA900A05DF3 /* EnrouteApp.swift */,
-				C63829F825C5EDA900A05DF3 /* ContentView.swift */,
 				C63829FA25C5EDAA00A05DF3 /* Assets.xcassets */,
 				C63829FF25C5EDAA00A05DF3 /* Persistence.swift */,
 				C6382A0425C5EDAA00A05DF3 /* Info.plist */,
@@ -132,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C612944925C6176D00604988 /* FlightAware in Resources */,
 				C63829FE25C5EDAA00A05DF3 /* Preview Assets.xcassets in Resources */,
 				C63829FB25C5EDAA00A05DF3 /* Assets.xcassets in Resources */,
 			);
@@ -145,7 +155,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6382A0025C5EDAA00A05DF3 /* Persistence.swift in Sources */,
-				C63829F925C5EDA900A05DF3 /* ContentView.swift in Sources */,
+				C612944E25C617E800604988 /* FilterFlights.swift in Sources */,
+				C612945025C617E800604988 /* FlightsEnrouteView.swift in Sources */,
+				C612944F25C617E800604988 /* FoundationExtensions.swift in Sources */,
 				C6382A0325C5EDAA00A05DF3 /* Enroute.xcdatamodeld in Sources */,
 				C63829F725C5EDA900A05DF3 /* EnrouteApp.swift in Sources */,
 			);
